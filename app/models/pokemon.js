@@ -22,10 +22,10 @@ const entrySchema = new mongoose.Schema({
     ref: 'User',
     required: true
   },
-  timestamps: true,
+  timestamps: true
   // in case we need to use virtuals, this allows for it
-  toObject: { virtuals: true },
-  toJSON: { virtuals: true }
+  // toObject: { virtuals: true },
+  // toJSON: { virtuals: true }
 })
 
 module.exports = mongoose.model('Pokemon', entrySchema)
