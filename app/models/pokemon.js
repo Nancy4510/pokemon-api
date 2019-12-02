@@ -23,7 +23,6 @@ const entrySchema = new mongoose.Schema({
     required: true
   },
   timestamps: true,
-  // in case we need to use virtuals, this allows for it
   toObject: { virtuals: true },
   toJSON: { virtuals: true }
 })
