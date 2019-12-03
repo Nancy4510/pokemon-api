@@ -21,10 +21,10 @@ const pokemonSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true
-  },
-  timestamps: true,
-  toObject: { virtuals: true },
-  toJSON: { virtuals: true }
+  }
+  // timestamps: true,
+  // toObject: { virtuals: true },
+  // toJSON: { virtuals: true }
 })
 
 module.exports = mongoose.model('Pokemon', pokemonSchema)
