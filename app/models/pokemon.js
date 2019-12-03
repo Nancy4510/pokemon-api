@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const entrySchema = new mongoose.Schema({
+const pokemonSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true
@@ -27,4 +27,4 @@ const entrySchema = new mongoose.Schema({
   toJSON: { virtuals: true }
 })
 
-module.exports = mongoose.model('Pokemon', entrySchema)
+module.exports = mongoose.model('Pokemon', pokemonSchema)
