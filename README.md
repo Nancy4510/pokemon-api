@@ -52,10 +52,10 @@ Before I started with the coding, I started out by creating a wireframe for the 
 
 | HTTP | CRUD | URL | Action |
 | ----------- | - | ----------- | ----------- |
-| POST | CREATE |/sign-up| users#signup |
-| POST | CREATE |/sign-in| users#signin |
-| PATCH  | UPDATE  | /change-password  |users#changepassword |
-| DELETE   | DELETE  | /sign-out  | users#signout |
+| POST | CREATE |/sign-up| app.post()/sign-up |
+| POST | CREATE |/sign-in| app.post()/sign-in |
+| PATCH  | UPDATE  | /change-password | app.patch()/change-password|
+| DELETE   | DELETE  | /sign-out | app.delete()/sign-out |
 
 ### **Pokemon**
 
