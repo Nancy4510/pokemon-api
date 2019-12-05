@@ -51,7 +51,7 @@ Before I started with the coding, I started out by creating a wireframe for the 
 ### **User**
 
 | HTTP | CRUD | URL | Action |
-| ----------- | | ----------- | ----------- |
+| ----------- | - | ----------- | ----------- |
 | POST | CREATE |/sign-up| users#signup |
 | POST | CREATE |/sign-in| users#signin |
 | PATCH  | UPDATE  | /change-password  |users#changepassword |
@@ -60,11 +60,12 @@ Before I started with the coding, I started out by creating a wireframe for the 
 ### **Pokemon**
 
 | HTTP | CRUD | URL | Action |
-| ----------- | | ----------- | ----------- |
+| ----------- | - | ----------- | ----------- |
 | POST | CREATE |/create-pokemon|  |
 | GET | READ |/pokemons|  |
-| PATCH  | UPDATE  | /pokemons/id:edit  |users#changepassword |
-| DELETE   | DELETE  | /sign-out  | users#signout |
+| GET  | READ | /pokemons/:id  |   |
+| PATCH  | UPDATE  | /pokemons/id:edit  ||
+| DELETE   | DELETE  | /pokemons/:id  |  |
 
 ## **Entity Relationship Diagram**
 **ERD to back-end**
