@@ -49,7 +49,7 @@ Before I started with the coding, I started out by creating a wireframe for the 
 
 ## **Routes**
 
-## **ERD**
-**Wireframe to front-end**
+## **Entity Relationship Diagram**
+**ERD to back-end**
 
 ![Project4ERD](Project4ERD.png)
