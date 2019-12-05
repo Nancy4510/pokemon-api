@@ -27,9 +27,19 @@ Before I started with the coding, I started out by creating a wireframe for the 
 - As a user, I want to be able to delete a Pokemon.
 
 ## **Technologies Used**
-- React
-- React Hooks
 - CSS/SASS
+
+- Express
+
+- Heroku
+
+- MongoDB
+
+- Mongoose
+
+- React
+
+- React Hooks
 
 ## **Unsolved Issues/Future**
 One thing that I would like to continue working on is the styling. I wouldn't say that styling was an unsolved issue but I felt that since I was using React and I'm still learning about it, styling was limited for me.
@@ -40,15 +50,7 @@ One thing that I would like to continue working on is the styling. I wouldn't sa
 - Link to the deployed back-end: [Deployed Back-End](https://enigmatic-brook-22865.herokuapp.com/)
 - Link to the deployed site: [Pokemon](https://nancy4510.github.io/pokemon-client/#//)
 
-## **WireFrames**
+## **ERD**
 **Wireframe to front-end**
 
-![Wireframe1](WireFrame1.png)
-![Wireframe2](Wireframe2.png)
-
-## **Screenshot of the app**
-**Landing page**
-![app1](app1.png)
-
-**What the user sees once they're logged-in**
-![app2](app2.png)
+![Wireframe1](Project4ERD.png)
