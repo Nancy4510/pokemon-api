@@ -48,6 +48,12 @@ Before I started with the coding, I started out by creating a wireframe for the 
 - Link to the deployed site: [Pokemon](https://nancy4510.github.io/pokemon-client/#//)
 
 ## **Routes**
+**User**
+
+| HTTP | CRUD | URL | Action |
+| ----------- | ----------- | | ----------- |
+| POST | CREATE |/sign-up| 
+| POST | CREATE |/sign-in|
 
 ## **Entity Relationship Diagram**
 **ERD to back-end**
