@@ -48,7 +48,7 @@ Before I started with the coding, I started out by creating a wireframe for the 
 - Link to the deployed site: [Pokemon](https://nancy4510.github.io/pokemon-client/#//)
 
 ## **Routes**
-**User**
+### **User**
 
 | HTTP | CRUD | URL | Action |
 | ----------- | | ----------- | ----------- |
@@ -57,15 +57,15 @@ Before I started with the coding, I started out by creating a wireframe for the 
 | PATCH  | UPDATE  | /change-password  |users#changepassword |
 | DELETE   | DELETE  | /sign-out  | users#signout |
 
-**User**
+### **Pokemon**
 
 | HTTP | CRUD | URL | Action |
 | ----------- | | ----------- | ----------- |
-| POST | CREATE |/sign-up| users#signup |
-| POST | CREATE |/sign-in| users#signin |
-| PATCH  | UPDATE  | /change-password  |users#changepassword |
+| POST | CREATE |/create-pokemon|  |
+| GET | READ |/pokemons|  |
+| PATCH  | UPDATE  | /pokemons/id:edit  |users#changepassword |
 | DELETE   | DELETE  | /sign-out  | users#signout |
-|   |   |   |   |
+
 ## **Entity Relationship Diagram**
 **ERD to back-end**
 
