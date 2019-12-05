@@ -52,8 +52,10 @@ Before I started with the coding, I started out by creating a wireframe for the 
 
 | HTTP | CRUD | URL | Action |
 | ----------- | ----------- | | ----------- |
-| POST | CREATE |/sign-up| 
-| POST | CREATE |/sign-in|
+| POST | CREATE |/sign-up| d |
+| POST | CREATE |/sign-in| d |
+| PATCH  | UPDATE  | /change-password  | d |
+| DELETE   | DELETE  | /sign-out  | d |
 
 ## **Entity Relationship Diagram**
 **ERD to back-end**
