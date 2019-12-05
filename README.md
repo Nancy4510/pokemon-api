@@ -61,11 +61,11 @@ Before I started with the coding, I started out by creating a wireframe for the 
 
 | HTTP | CRUD | URL | Action |
 | ----------- | - | ----------- | ----------- |
-| POST | CREATE |/create-pokemon|  |
-| GET | READ |/pokemons|  |
-| GET  | READ | /pokemons/:id  |   |
-| PATCH  | UPDATE  | /pokemons/id:edit  ||
-| DELETE   | DELETE  | /pokemons/:id  |  |
+| POST | CREATE |/pokemons| app.post()/create |
+| GET | READ |/pokemons| app.get()/index |
+| GET  | READ | /pokemons/:id  | app.get()/show |
+| PATCH  | UPDATE  | /pokemons/id:edit |app.patch()/update|
+| DELETE   | DELETE  | /pokemons/:id | app.delete()/destroy |
 
 ## **Entity Relationship Diagram**
 **ERD to back-end**
