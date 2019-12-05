@@ -41,16 +41,15 @@ Before I started with the coding, I started out by creating a wireframe for the 
 
 - React Hooks
 
-## **Unsolved Issues/Future**
-One thing that I would like to continue working on is the styling. I wouldn't say that styling was an unsolved issue but I felt that since I was using React and I'm still learning about it, styling was limited for me.
-
 ## **API Repository**
 - Link to API repo: [Pokemon-API Repo](https://github.com/Nancy4510/pokemon-api)
 - Link to client repo: [Pokemon-Client Repo](https://github.com/Nancy4510/pokemon-client)
 - Link to the deployed back-end: [Deployed Back-End](https://enigmatic-brook-22865.herokuapp.com/)
 - Link to the deployed site: [Pokemon](https://nancy4510.github.io/pokemon-client/#//)
 
+## **Routes**
+
 ## **ERD**
 **Wireframe to front-end**
 
-![Wireframe1](Project4ERD.png)
+![Project4ERD](Project4ERD.png)
