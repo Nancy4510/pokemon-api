@@ -51,12 +51,21 @@ Before I started with the coding, I started out by creating a wireframe for the 
 **User**
 
 | HTTP | CRUD | URL | Action |
-| ----------- | ----------- | | ----------- |
-| POST | CREATE |/sign-up| d |
-| POST | CREATE |/sign-in| d |
-| PATCH  | UPDATE  | /change-password  | d |
-| DELETE   | DELETE  | /sign-out  | d |
+| ----------- | | ----------- | ----------- |
+| POST | CREATE |/sign-up| users#signup |
+| POST | CREATE |/sign-in| users#signin |
+| PATCH  | UPDATE  | /change-password  |users#changepassword |
+| DELETE   | DELETE  | /sign-out  | users#signout |
 
+**User**
+
+| HTTP | CRUD | URL | Action |
+| ----------- | | ----------- | ----------- |
+| POST | CREATE |/sign-up| users#signup |
+| POST | CREATE |/sign-in| users#signin |
+| PATCH  | UPDATE  | /change-password  |users#changepassword |
+| DELETE   | DELETE  | /sign-out  | users#signout |
+|   |   |   |   |
 ## **Entity Relationship Diagram**
 **ERD to back-end**
 
